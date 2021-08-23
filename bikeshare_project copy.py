@@ -165,15 +165,18 @@ def user_stats(df, city):
 
 def raw_data(df):
     while True:
+        i = 0
         choice = input('\nWould you like to view raw data? Enter Yes or No\n')
         if choice == "yes":
-            start_loc = 0
             print(df.iloc[i:i+5])
             i += 5
         if choice == "no":
             break
+
+    while True:
+        i = 0
         choice = input('Do you wish to continue? Enter yes or no').lower()
-        if choice == 'yes':
+        if choice == "yes":
             print(df.iloc[i:i+5])
             i += 5
         if choice == "no":
