@@ -2,7 +2,7 @@
 
 ### Date Created August 22nd 2021
 
-### Udacity Bikeshare_Project
+### Udacity Bikeshare_Project 
 
 ### Description
 This project makes use of Python to explore data related to bike share systems
@@ -30,4 +30,4 @@ The Chicago and New York City files also have the following two columns:
 
 ### Credits
 Thanks to the udacity mentors for helping me to debug while I learn to work
-out of a local environment. 
+out of a local environment.
